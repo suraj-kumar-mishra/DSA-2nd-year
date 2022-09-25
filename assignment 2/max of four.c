@@ -16,3 +16,12 @@ int max(int a,int b,int c,int d)
 greatest=d;
     return greatest;
 }
+
+int main() {
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int greatest = max(a, b, c, d);
+    printf("%d", greatest);
+    
+    return 0;
+}
